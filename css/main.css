@@ -1,0 +1,349 @@
+/* 
+
+    Project Name: HTML CV Tempate
+    Author: Atik Hassan
+    Version: 1.0.0
+
+*/
+
+/* google font import */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+/* Default CSS */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    box-sizing: border-box !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+ol,
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+a:hover{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none !important;
+}
+
+/* Main Header CSS */
+#mainHeader{
+    background: #545454;
+}
+
+#mainHeader .headerCentent{
+    text-align: center;
+    color: #ffffff;
+    padding: 90px 0 100px;
+}
+
+#mainHeader .headerCentent h1{
+    font-size: 33px;
+    font-weight: 700;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+#mainHeader .headerCentent h3{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+/* About Part CSS */
+#aboutPart{
+    margin: 0 0 70px;
+    
+}
+
+.aboutContent{
+    border: 1px solid #9c9a9a7a;
+    padding: 20px;
+    border-top: none;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -webkit-box-shadow: 0px 2px 2px 1px rgba(173,172,172,0.7);
+    -moz-box-shadow: 0px 2px 2px 1px rgba(173,172,172,0.7);
+    box-shadow: 0px 2px 2px 1px rgba(173,172,172,0.7);
+}
+
+.aboutContent .proImgBr{
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    border: 3px solid #adacac;
+    border-radius: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 7px;
+    position:  absolute;
+    content: '';
+    left: 50%;
+    top: -68px;
+    transform: translateX(-50%);
+    
+}
+
+.aboutContent .proImgBr .proImg{
+    width: 100%;
+    height: 100%;
+    border: 5px solid rgb(0, 189, 214);
+    border-radius: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: #ffffff;
+}
+
+.aboutContent .proImgBr .proImg img{
+    width: 100%;
+}
+
+.aboutContent .socialIcon{
+    margin: 75px 0 28px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.aboutContent .socialIcon a{
+    color: #A69EA4;
+    margin: 0 5px;
+    transition: all 0.3s ease;
+}
+
+.aboutContent .socialIcon a:hover{
+    color: #00BDD6;
+}
+
+.aboutContent .aboutMe{
+    text-align: center;
+    font-size: 13px;
+}
+
+.aboutContent .aboutBtn {
+    width: 260px;
+    margin: 30px auto;
+}
+
+.aboutContent .aboutBtn a{
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+    background: rgba(0, 189, 214, 1);
+    padding: 10px 15px;
+    -webkit-box-shadow: 0px 1px 2px 0px rgba(156,154,154,1);
+    -moz-box-shadow: 0px 1px 2px 0px rgba(156,154,154,1);
+    box-shadow: 0px 1px 2px 0px rgba(156,154,154,1);
+    transition: all 0.3s ease;
+}
+
+.aboutContent .aboutBtn a:hover{
+    background: rgba(0, 189, 214, 0.8);
+}
+
+/* Experience Part CSS */
+#experience{
+    margin: 20px 0 50px;
+}
+
+.exprncContent h2,
+.skillContent h2{
+    text-transform: uppercase;
+    color: #555555;
+    font-size: 25px;
+    margin: 0 0 30px;
+}
+
+.boxBr{
+    position: relative;
+    content: '';
+    top: 12px;
+    margin: auto;
+    width: 4px;
+    height: 500px;
+    background: #00BDD6;
+    border-radius: 3px;
+}
+
+.boxCir{
+    width: 16px;
+    height: 16px;
+    background: #00BDD6;
+    border-radius: 50%;
+    position: relative;
+    content: '';
+    left: -6px;
+}
+
+.boxCir1{
+    margin-top: 0;
+}
+
+.boxCir2{
+    margin-top: 27px;
+}
+
+.boxCir3{
+    margin-top: 236px;
+}
+
+.boxCir4{
+    margin-top: 25px;
+}
+
+.expBox{
+    border: 1px solid #9c9a9a7a;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    -webkit-box-shadow: 0px 2px 2px 1px rgba(173,172,172,0.7);
+    -moz-box-shadow: 0px 2px 2px 1px rgba(173,172,172,0.7);
+    box-shadow: 0px 2px 2px 1px rgba(173,172,172,0.7);
+    margin: 20px 0;
+    position: relative;
+}
+
+.expBoxLeft::before{
+    position: absolute;
+    content: '';
+    top: -14px;
+    right: -30px;
+    transform: rotate(-25deg);
+    z-index: -1;
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 65px solid #555;
+	border-bottom: 20px solid transparent;
+}
+
+.expBoxRight::before{
+    position: absolute;
+    content: '';
+    top: -14px;
+    left: -35px;
+    transform: rotate(25deg);
+    z-index: -1;
+    width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 65px solid #555;
+	border-bottom: 20px solid transparent;
+}
+
+.expBox .expBoxHead{
+    padding: 10px 15px;
+    background: #545454;
+}
+
+.expBox .expBoxHead h3{
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+.expBox .expBoxContent{
+    padding: 15px;
+}
+
+.expBox .expBoxContent h4 a{
+    font-size: 18px;
+    color: rgba(0, 189, 214, 1);
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.expBox .expBoxContent h4 a:hover{
+    color: rgba(0, 189, 214,0.8);
+}
+
+.expBox .expBoxContent h5{
+    font-size: 14px;
+    color: #555555;
+    margin: 10px 0;
+}
+
+.expBox .expBoxContent p{
+    font-size: 13px;
+    text-align: justify;
+}
+
+/* Skill Part CSS */
+.progress{
+    height: 7px;
+    background-color: #000000;
+}
+
+.progress-bar{
+    background-color: #00BDD6;
+}
+
+.skillItem{
+    background: #545454;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.skillItem h4{
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 5px 0 30px;
+}
+
+.skillBar{
+    margin: 0 0 20px;
+}
+
+.skillBar p{
+    color: #ffffff;
+    font-size: 10px;
+    margin: 0 0 4px;
+}
+
+.skillBar p span{
+    margin: 30px;
+}
+
+/* Footer Part CSS */
+#footer .copyRight p{
+    font-size: 13px;
+    color: #555555;
+    margin: 0 0 15px;
+}
+
+#footer .copyRight p a{
+    color: rgba(0, 189, 214, 1);
+}
+
+#footer .copyRight p a:hover{
+    color: rgba(0, 189, 214, 0.8);
+}
