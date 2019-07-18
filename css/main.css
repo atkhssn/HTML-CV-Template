@@ -1,8 +1,9 @@
 /* 
 
     Project Name: HTML CV Tempate
-    Author: Atik Hassan
-    Version: 1.0.0
+    Author: Atik Hassan - atkhssn
+    Version: 2.0.0
+    Developer: Atik Hassan
 
 */
 
@@ -347,3 +348,6 @@ a:hover{
 #footer .copyRight p a:hover{
     color: rgba(0, 189, 214, 0.8);
 }
+
+
+/* the main file of css is end */

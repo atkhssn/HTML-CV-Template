@@ -1,3 +1,12 @@
+/* 
+
+    Project Name: HTML CV Tempate
+    Author: Atik Hassan - atkhssn
+    Version: 2.0.0
+    Developer: Atik Hassan
+
+*/
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .expBoxRight::before {
@@ -55,3 +64,7 @@
         margin-top: 240px;
     }
   }
+
+
+
+  /* the responsive of css is end */
